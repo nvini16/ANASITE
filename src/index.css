@@ -1,0 +1,16 @@
+:root {
+  --ana-color-lilas: #8B0FB9;
+  --ana-color-roxo: #3B096A;
+  --ana-color-branco: #fdeded;
+  --ana-color-preto: #000000;
+}
+
+main {
+  scroll-behavior: smooth;
+}
+
+/* HEADER  */
+
+.main-page {
+  color: var(--ana-color-preto);
+}
