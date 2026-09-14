@@ -5,12 +5,34 @@
   --ana-color-preto: #000000;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 main {
   scroll-behavior: smooth;
 }
 
+/* APP  */
+.flex-homu {
+  display: flex;
+}
+
 /* HEADER  */
 
-.main-page {
+.header-page {
   color: var(--ana-color-preto);
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  margin-bottom: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+/* HERO  */
+
+.hero-page {
+  background-color: var(--ana-color-lilas);
 }

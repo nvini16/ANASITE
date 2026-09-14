@@ -1,20 +1,13 @@
 function Header() {
     return (
-        <main classname="main-page">
+        <main className="header-page">
 
-            <div classname="div-logo">
+                <h1>Studio Lashess</h1>
                 <img src="#" alt="Logo" />
-            </div>
 
-            <nav>
-                <ul>
-                    <li><a>Sobre</a></li>
-                    <li><a>Trabalhos</a></li>
-                    <li><a>Contato</a></li>
-                </ul>
-            </nav>
+            
         </main>
     )
 }
 
-export default Header();
+export default Header
